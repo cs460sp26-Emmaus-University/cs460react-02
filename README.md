@@ -1,46 +1,23 @@
-# react02
-grok-generated react project
+## 🚀 Deploy to Render (One-Click)
 
-## 🚀 Easy Deployment to Render (No Terminal Needed)
+Your Vite + React Crypto app can be deployed live with just a few clicks.
 
-Your Vite app is a frontend website. The easiest way to make it live online is with **one click**:
+### Easiest Way:
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/YOUR-ORG/YOUR-TEMPLATE-REPO-NAME)
+1. **Copy your repository URL** — it should look like this:  
+   `https://github.com/cis-EU/react-project-2-YourGitHubUsername-crypto`
 
-### How to Deploy (Super Simple Steps):
+2. Click the button below:
 
-1. Click the **Deploy to Render** button above.
-2. Log in with your GitHub account (the same one you use for GitHub Classroom).
-3. Click **Approve** or **Create** — Render will automatically:
-   - Install dependencies
-   - Build your Vite app (`npm run build`)
-   - Deploy it as a live website
-4. Wait 1–2 minutes. When it's done, you'll see a link like `https://your-app-name.onrender.com`
+   [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
 
-**That's it!** Your website is now live on the internet.
+3. On the Render page:
+   - Paste the repository URL you copied into the box that says "Repository URL".
+   - Click **Continue** or **Deploy**.
+   - Wait 1–2 minutes for the build to finish.
 
-Every time you push new code to GitHub, Render will automatically rebuild and update your site.
+4. When it's done, click the live URL Render gives you (e.g. `https://crypto-app-xxxx.onrender.com`).
 
-> **Note for Free Tier:** The site may take 10–30 seconds to "wake up" if no one has visited it recently. Just refresh the page.
+Your app is now live on the internet!
 
-### Alternative (Manual Way – Still Easy)
-
-If the button doesn't work for any reason:
-1. Go to [https://dashboard.render.com](https://dashboard.render.com)
-2. Click **New** → **Static Site**
-3. Connect your GitHub Classroom repository
-4. Use these settings (Render usually fills them automatically):
-   - **Build Command**: `npm install && npm run build`
-   - **Publish Directory**: `dist`
-5. Click **Create Static Site**
-
-### Check Your `package.json`
-
-Make sure your `package.json` has this standard Vite script (it should already be there):
-
-```json
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
-}
+> **Free Tier Note**: The site sleeps after ~15 minutes of no activity. Just refresh the page — it usually wakes up in 10–30 seconds.
