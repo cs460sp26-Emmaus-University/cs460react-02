@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: vite-app
+    runtime: static
+    plan: free
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
